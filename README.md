@@ -1,5 +1,24 @@
 # Nuxt Dayjs
 
+## Install
+
+### Command
+
+```console
+~$ npm i nuxt-dayjs
+
+~$ yarn add nuxt-dayjs
+```
+
+### nuxt.config.ts
+
+```ts
+export default defineNuxtConfig({
+  modules: ['nuxt-dayjs'],
+})
+```
+
+
 ## Usage examples
 
 ### Config key
