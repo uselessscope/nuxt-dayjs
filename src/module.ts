@@ -26,6 +26,6 @@ export default defineNuxtModule<ModuleOptions>({
       filename: 'nuxt-dayjs.plugin.mjs'
     })
 
-    addImportsDir(resolve('./composables'))
+    addImportsDir(resolve('./runtime/composables'))
   }
 })
