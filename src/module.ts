@@ -1,4 +1,4 @@
-import { addImportsDir, addPluginTemplate, createResolver, defineNuxtModule } from '@nuxt/kit'
+import { addImports, addPluginTemplate, createResolver, defineNuxtModule } from '@nuxt/kit'
 import type { NuxtDayjsOptions } from "./types";
 import type { Nuxt } from '@nuxt/schema'
 import plugin from './runtime/plugin'
@@ -26,6 +26,6 @@ export default defineNuxtModule<ModuleOptions>({
       filename: 'nuxt-dayjs.plugin.mjs'
     })
 
-    addImportsDir(resolve('./composables'))
+    addImports({ from: resolve('./runtime/use-dayjs'), name: 'useDayjs' })
   }
 })
