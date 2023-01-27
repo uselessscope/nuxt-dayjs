@@ -27,7 +27,6 @@ export default defineNuxtConfig({
 }
 ```
 
-
 ## Usage examples
 
 ### Config key
