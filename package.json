@@ -2,6 +2,7 @@
   "name": "nuxt-dayjs",
   "version": "1.0.1",
   "license": "MIT",
+  "repository": "https://github.com/uselessscope/nuxt-dayjs",
   "type": "module",
   "exports": {
     ".": {
